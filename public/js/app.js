@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded!')
+//console.log('Client side javascript file is loaded!')
 
 //browser client call using a promise , async await
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {
