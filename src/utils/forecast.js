@@ -3,8 +3,7 @@ const forecast = (longitute,latitute,callback) => {
 
     const url = 'https://api.darksky.net/forecast/be4b337df011fa9e16af6360300b0707/' +  latitute + ',' +   longitute+ '?units=si&lang=en'
        
-        request({ url, json: true }, (error, {body} = {}) => {
-          console.log(body.daily)
+        request({ url, json: true }, (error, {body} = {}) => {         
           if (error) {
             callback('Unable to connect to weather service!',undefined);
           }
